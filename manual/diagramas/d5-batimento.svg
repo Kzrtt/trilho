@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1179 960" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" data-palavras="44">
+<title>O batimento de uma entrega</title>
+<style>
+:root{--paper:#F4EFE5;--ink:#1E1E1C;--muted:#625B50;--faint:#8A8070;--line:#A39682;--divider:#DED3BD;--node:#FBF9F4;--fill-1:#ECE5D6;--fill-2:#DED3BD;--fill-3:#C9BAA0;--accent:#1F5E63;--accent-bg:#DCEBEB;--accent-ink:#184D51;--seq-1:#E3EEEE;--seq-2:#BFD8D9;--seq-3:#8FB8BA;--seq-4:#4F8E92;--seq-5:#1F5E63;--on-strong:#FFFFFF;--on-ink:#FFFFFF}
+#dark:target ~ #art{--paper:transparent;--ink:#ECECF1;--muted:#A7A9B4;--faint:#767884;--line:#5D5F69;--divider:#2C2C33;--node:#1D1E24;--fill-1:#202128;--fill-2:#272830;--fill-3:#32333C;--accent:#3F6FA6;--accent-bg:#1A2838;--accent-ink:#A9C6E8;--seq-1:#1A2533;--seq-2:#203247;--seq-3:#2A4363;--seq-4:#355883;--seq-5:#4470A6;--on-strong:#F4F6FA;--on-ink:#15161A}
+#light:target ~ #art{--paper:transparent}
+text{font-family:Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif}
+</style>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+<marker id="arr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--ink)"/></marker>
+<marker id="arr-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--accent)"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--muted)"/></marker>
+</defs>
+<view id="dark" viewBox="0 0 1179 960"/>
+<view id="light" viewBox="0 0 1179 960"/>
+<g id="art">
+<rect width="1179" height="960" fill="var(--paper)"/>
+<text x="589.5" y="73.8" font-size="34" fill="var(--ink)" text-anchor="middle" font-weight="700" id="titulo">O batimento de uma entrega</text>
+<text x="589.5" y="109.0" font-size="18" fill="var(--muted)" text-anchor="middle" id="subtitulo">O mesmo ritual em toda mudança</text>
+<circle cx="589.5" cy="546.2" r="85.5" fill="var(--fill-1)" stroke="none" id="centro" data-role="centro"/>
+<text x="589.5" y="523.1" font-size="22" fill="var(--ink)" text-anchor="middle" font-weight="700" id="centro-rotulo">Contexto</text>
+<text x="589.5" y="552.2" font-size="22" fill="var(--ink)" text-anchor="middle" font-weight="700">sempre</text>
+<text x="589.5" y="581.2" font-size="22" fill="var(--ink)" text-anchor="middle" font-weight="700">atual</text>
+<path d="M678.28 342.39 A222.33 222.33 0 0 1 755.93 398.80" fill="none" stroke="var(--line)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)" id="seta-1"/>
+<path d="M810.80 567.67 A222.33 222.33 0 0 1 781.14 658.95" fill="none" stroke="var(--line)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)" id="seta-2"/>
+<path d="M637.49 763.32 A222.33 222.33 0 0 1 541.51 763.32" fill="none" stroke="var(--line)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)" id="seta-3"/>
+<path d="M397.86 658.95 A222.33 222.33 0 0 1 368.20 567.67" fill="none" stroke="var(--line)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)" id="seta-4"/>
+<path d="M423.07 398.80 A222.33 222.33 0 0 1 500.72 342.39" fill="none" stroke="var(--line)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arr)" id="seta-5"/>
+<circle cx="589.5" cy="323.9" r="80.7" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="carregar-contexto" data-role="box"/>
+<text x="589.5" y="304.0" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="carregar-contexto-num">01</text>
+<text x="589.5" y="326.7" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700" id="carregar-contexto-rotulo">Carregar</text>
+<text x="589.5" y="350.5" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700">contexto</text>
+<circle cx="800.9" cy="477.5" r="80.7" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="implementar" data-role="box"/>
+<text x="800.9" y="469.5" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="implementar-num">02</text>
+<text x="800.9" y="492.2" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700" id="implementar-rotulo">Implementar</text>
+<circle cx="720.2" cy="726.1" r="80.7" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="conferir" data-role="box"/>
+<text x="720.2" y="718.1" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="conferir-num">03</text>
+<text x="720.2" y="740.8" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700" id="conferir-rotulo">Conferir</text>
+<circle cx="458.8" cy="726.1" r="80.7" fill="var(--accent-bg)" stroke="var(--accent)" stroke-width="2.5" id="relatar" data-role="box"/>
+<text x="458.8" y="718.1" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="relatar-num">04</text>
+<text x="458.8" y="740.8" font-size="18" fill="var(--accent-ink)" text-anchor="middle" font-weight="700" id="relatar-rotulo">Relatar</text>
+<circle cx="378.1" cy="477.5" r="80.7" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="sincronizar" data-role="box"/>
+<text x="378.1" y="469.5" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="sincronizar-num">05</text>
+<text x="378.1" y="492.2" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700" id="sincronizar-rotulo">Sincronizar</text>
+<rect x="479.5" y="153.0" width="220.0" height="62.5" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="carregar-contexto-apoio" data-role="box"/>
+<text x="589.5" y="178.4" font-size="15" fill="var(--muted)" text-anchor="middle">Domínio e relatórios</text>
+<text x="589.5" y="198.2" font-size="15" fill="var(--muted)" text-anchor="middle">pendentes</text>
+<line x1="589.5" y1="237.2" x2="589.5" y2="221.5" stroke="var(--line)" stroke-width="1.5" id="carregar-contexto-ligacao"/>
+<rect x="902.7" y="377.5" width="220.0" height="62.5" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="implementar-apoio" data-role="box"/>
+<text x="1012.7" y="402.9" font-size="15" fill="var(--muted)" text-anchor="middle">Por blocos, com</text>
+<text x="1012.7" y="422.7" font-size="15" fill="var(--muted)" text-anchor="middle">teste junto</text>
+<line x1="883.4" y1="450.7" x2="910.9" y2="441.8" stroke="var(--line)" stroke-width="1.5" id="implementar-ligacao"/>
+<rect x="722.3" y="849.1" width="220.0" height="62.5" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="conferir-apoio" data-role="box"/>
+<text x="832.3" y="874.5" font-size="15" fill="var(--muted)" text-anchor="middle">Testes, estilo e</text>
+<text x="832.3" y="894.3" font-size="15" fill="var(--muted)" text-anchor="middle">fronteiras verdes</text>
+<line x1="771.1" y1="796.2" x2="806.0" y2="844.3" stroke="var(--line)" stroke-width="1.5" id="conferir-ligacao"/>
+<rect x="236.7" y="849.1" width="220.0" height="62.5" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="relatar-apoio" data-role="box"/>
+<text x="346.7" y="874.5" font-size="15" fill="var(--muted)" text-anchor="middle">Relatório com a</text>
+<text x="346.7" y="894.3" font-size="15" fill="var(--muted)" text-anchor="middle">seção para o front</text>
+<line x1="407.9" y1="796.2" x2="373.0" y2="844.3" stroke="var(--line)" stroke-width="1.5" id="relatar-ligacao"/>
+<rect x="56.3" y="377.5" width="220.0" height="62.5" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="sincronizar-apoio" data-role="box"/>
+<text x="166.3" y="402.9" font-size="15" fill="var(--muted)" text-anchor="middle">Documentação</text>
+<text x="166.3" y="422.7" font-size="15" fill="var(--muted)" text-anchor="middle">viva atualizada</text>
+<line x1="295.6" y1="450.7" x2="268.1" y2="441.8" stroke="var(--line)" stroke-width="1.5" id="sincronizar-ligacao"/>
+</g>
+</svg>

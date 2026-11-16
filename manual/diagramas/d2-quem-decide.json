@@ -1,0 +1,31 @@
+{
+ "gramatica": "comparativo",
+ "variante": "versus",
+ "titulo": "Quem decide o quê",
+ "subtitulo": "A divisão de trabalho entre você e o kit",
+ "destaque": "b",
+ "conteudo": {
+  "a": {
+   "rotulo": "Você",
+   "texto": "O que só o dono do produto sabe",
+   "itens": [
+    "O que o sistema faz e para quem",
+    "As coisas do negócio e seus estados",
+    "Quem pode o quê",
+    "Prazos, limites e números",
+    "As palavras de cada coisa"
+   ]
+  },
+  "b": {
+   "rotulo": "O kit",
+   "texto": "O que é igual em todo sistema",
+   "itens": [
+    "Casca, menu e perfil",
+    "Lista, modal e formulário",
+    "Cores, selos e ícones",
+    "Auditoria e exclusão lógica",
+    "Contrato entre tela e servidor"
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 421" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" data-palavras="52">
+<title>De onde o padrão veio</title>
+<style>
+:root{--paper:#F4EFE5;--ink:#1E1E1C;--muted:#625B50;--faint:#8A8070;--line:#A39682;--divider:#DED3BD;--node:#FBF9F4;--fill-1:#ECE5D6;--fill-2:#DED3BD;--fill-3:#C9BAA0;--accent:#1F5E63;--accent-bg:#DCEBEB;--accent-ink:#184D51;--seq-1:#E3EEEE;--seq-2:#BFD8D9;--seq-3:#8FB8BA;--seq-4:#4F8E92;--seq-5:#1F5E63;--on-strong:#FFFFFF;--on-ink:#FFFFFF}
+#dark:target ~ #art{--paper:transparent;--ink:#ECECF1;--muted:#A7A9B4;--faint:#767884;--line:#5D5F69;--divider:#2C2C33;--node:#1D1E24;--fill-1:#202128;--fill-2:#272830;--fill-3:#32333C;--accent:#3F6FA6;--accent-bg:#1A2838;--accent-ink:#A9C6E8;--seq-1:#1A2533;--seq-2:#203247;--seq-3:#2A4363;--seq-4:#355883;--seq-5:#4470A6;--on-strong:#F4F6FA;--on-ink:#15161A}
+#light:target ~ #art{--paper:transparent}
+text{font-family:Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif}
+</style>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+<marker id="arr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--ink)"/></marker>
+<marker id="arr-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--accent)"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--muted)"/></marker>
+</defs>
+<view id="dark" viewBox="0 0 1400 421"/>
+<view id="light" viewBox="0 0 1400 421"/>
+<g id="art">
+<rect width="1400" height="421" fill="var(--paper)"/>
+<text x="700.0" y="73.8" font-size="34" fill="var(--ink)" text-anchor="middle" font-weight="700" id="titulo">De onde o padrão veio</text>
+<text x="700.0" y="109.0" font-size="18" fill="var(--muted)" text-anchor="middle" id="subtitulo">Cada projeto acrescentou uma camada</text>
+<line x1="60.0" y1="262.9" x2="1340.0" y2="262.9" stroke="var(--line)" stroke-width="2" marker-end="url(#arr)" id="eixo"/>
+<line x1="200.0" y1="251.9" x2="200.0" y2="234.9" stroke="var(--line)" stroke-width="1.5"/>
+<circle cx="200.0" cy="262.9" r="7.0" fill="var(--node)" stroke="var(--muted)" stroke-width="2" id="especificacao-visual" data-role="marca"/>
+<text x="200.0" y="163.6" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="especificacao-visual-data">Origem</text>
+<text x="200.0" y="184.8" font-size="16" fill="var(--ink)" text-anchor="middle" font-weight="700" id="especificacao-visual-rotulo">Especificação visual</text>
+<text x="200.0" y="205.8" font-size="15" fill="var(--muted)" text-anchor="middle" id="especificacao-visual-texto">Papéis de cor e fluxo</text>
+<text x="200.0" y="225.6" font-size="15" fill="var(--muted)" text-anchor="middle">lista, modal, edição</text>
+<line x1="450.0" y1="273.9" x2="450.0" y2="290.9" stroke="var(--line)" stroke-width="1.5"/>
+<circle cx="450.0" cy="262.9" r="7.0" fill="var(--node)" stroke="var(--muted)" stroke-width="2" id="template-modular" data-role="marca"/>
+<text x="450.0" y="307.5" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="template-modular-data">Base</text>
+<text x="450.0" y="328.7" font-size="16" fill="var(--ink)" text-anchor="middle" font-weight="700" id="template-modular-rotulo">Template modular</text>
+<text x="450.0" y="349.7" font-size="15" fill="var(--muted)" text-anchor="middle" id="template-modular-texto">Módulos, tenant,</text>
+<text x="450.0" y="369.5" font-size="15" fill="var(--muted)" text-anchor="middle">auditoria, relatórios</text>
+<line x1="700.0" y1="251.9" x2="700.0" y2="234.9" stroke="var(--line)" stroke-width="1.5"/>
+<circle cx="700.0" cy="262.9" r="7.0" fill="var(--node)" stroke="var(--muted)" stroke-width="2" id="urban-pass" data-role="marca"/>
+<text x="700.0" y="183.4" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="urban-pass-data">1º sistema</text>
+<text x="700.0" y="204.6" font-size="16" fill="var(--ink)" text-anchor="middle" font-weight="700" id="urban-pass-rotulo">Urban Pass</text>
+<text x="700.0" y="225.6" font-size="15" fill="var(--muted)" text-anchor="middle" id="urban-pass-texto">Guia de tela e tabela em cartões</text>
+<line x1="950.0" y1="273.9" x2="950.0" y2="290.9" stroke="var(--line)" stroke-width="1.5"/>
+<circle cx="950.0" cy="262.9" r="7.0" fill="var(--node)" stroke="var(--muted)" stroke-width="2" id="fibro" data-role="marca"/>
+<text x="950.0" y="307.5" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="fibro-data">2º sistema</text>
+<text x="950.0" y="328.7" font-size="16" fill="var(--ink)" text-anchor="middle" font-weight="700" id="fibro-rotulo">Fibro+</text>
+<text x="950.0" y="349.7" font-size="15" fill="var(--muted)" text-anchor="middle" id="fibro-texto">Abas de relação,</text>
+<text x="950.0" y="369.5" font-size="15" fill="var(--muted)" text-anchor="middle">edição ampla, nunca ID</text>
+<line x1="1200.0" y1="251.9" x2="1200.0" y2="234.9" stroke="var(--accent)" stroke-width="1.5"/>
+<circle cx="1200.0" cy="262.9" r="12.0" fill="none" stroke="var(--accent)" stroke-width="2" id="kit-halo" data-role="marca"/>
+<circle cx="1200.0" cy="262.9" r="8.0" fill="var(--accent)" stroke="var(--accent)" stroke-width="2" id="kit" data-role="marca"/>
+<text x="1200.0" y="163.6" font-size="14" fill="var(--accent)" text-anchor="middle" font-weight="700" letter-spacing="0.08em" id="kit-data">Agora</text>
+<text x="1200.0" y="184.8" font-size="16" fill="var(--accent-ink)" text-anchor="middle" font-weight="700" id="kit-rotulo">Trilho</text>
+<text x="1200.0" y="205.8" font-size="15" fill="var(--muted)" text-anchor="middle" id="kit-texto">As regras viram</text>
+<text x="1200.0" y="225.6" font-size="15" fill="var(--muted)" text-anchor="middle">arquivos e skills</text>
+</g>
+</svg>

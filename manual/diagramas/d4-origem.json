@@ -1,0 +1,37 @@
+{
+ "gramatica": "linha-do-tempo",
+ "variante": "marcos",
+ "titulo": "De onde o padrão veio",
+ "subtitulo": "Cada projeto acrescentou uma camada",
+ "destaque": "kit",
+ "conteudo": {
+  "marcos": [
+   {
+    "data": "Origem",
+    "rotulo": "Especificação visual",
+    "texto": "Papéis de cor e fluxo lista, modal, edição"
+   },
+   {
+    "data": "Base",
+    "rotulo": "Template modular",
+    "texto": "Módulos, tenant, auditoria, relatórios"
+   },
+   {
+    "data": "1º sistema",
+    "rotulo": "Urban Pass",
+    "texto": "Guia de tela e tabela em cartões"
+   },
+   {
+    "data": "2º sistema",
+    "rotulo": "Fibro+",
+    "texto": "Abas de relação, edição ampla, nunca ID"
+   },
+   {
+    "data": "Agora",
+    "rotulo": "Trilho",
+    "id": "kit",
+    "texto": "As regras viram arquivos e skills"
+   }
+  ]
+ }
+}

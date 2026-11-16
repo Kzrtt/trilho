@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1596 407" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" data-palavras="67">
+<title>Do pedido ao sistema pronto</title>
+<style>
+:root{--paper:#F4EFE5;--ink:#1E1E1C;--muted:#625B50;--faint:#8A8070;--line:#A39682;--divider:#DED3BD;--node:#FBF9F4;--fill-1:#ECE5D6;--fill-2:#DED3BD;--fill-3:#C9BAA0;--accent:#1F5E63;--accent-bg:#DCEBEB;--accent-ink:#184D51;--seq-1:#E3EEEE;--seq-2:#BFD8D9;--seq-3:#8FB8BA;--seq-4:#4F8E92;--seq-5:#1F5E63;--on-strong:#FFFFFF;--on-ink:#FFFFFF}
+#dark:target ~ #art{--paper:transparent;--ink:#ECECF1;--muted:#A7A9B4;--faint:#767884;--line:#5D5F69;--divider:#2C2C33;--node:#1D1E24;--fill-1:#202128;--fill-2:#272830;--fill-3:#32333C;--accent:#3F6FA6;--accent-bg:#1A2838;--accent-ink:#A9C6E8;--seq-1:#1A2533;--seq-2:#203247;--seq-3:#2A4363;--seq-4:#355883;--seq-5:#4470A6;--on-strong:#F4F6FA;--on-ink:#15161A}
+#light:target ~ #art{--paper:transparent}
+text{font-family:Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif}
+</style>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+<marker id="arr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--ink)"/></marker>
+<marker id="arr-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--accent)"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--muted)"/></marker>
+</defs>
+<view id="dark" viewBox="0 0 1596 407"/>
+<view id="light" viewBox="0 0 1596 407"/>
+<g id="art">
+<rect width="1596" height="407" fill="var(--paper)"/>
+<text x="798.0" y="73.8" font-size="34" fill="var(--ink)" text-anchor="middle" font-weight="700" id="titulo">Do pedido ao sistema pronto</text>
+<text x="798.0" y="109.0" font-size="18" fill="var(--muted)" text-anchor="middle" id="subtitulo">Você descreve o negócio; o kit decide como o sistema sai</text>
+<polygon points="48.0,153.0 324.0,153.0 344.0,181.0 324.0,209.0 48.0,209.0" fill="var(--fill-2)" stroke="none" stroke-linejoin="round" id="negocio" data-role="box"/>
+<text x="186.0" y="185.3" font-size="16" fill="var(--ink)" text-anchor="middle" font-weight="700">Negócio</text>
+<polygon points="348.0,153.0 624.0,153.0 644.0,181.0 624.0,209.0 348.0,209.0 368.0,181.0" fill="var(--fill-2)" stroke="none" stroke-linejoin="round" id="servidor" data-role="box"/>
+<text x="496.0" y="185.3" font-size="16" fill="var(--ink)" text-anchor="middle" font-weight="700">Servidor</text>
+<polygon points="648.0,153.0 924.0,153.0 944.0,181.0 924.0,209.0 648.0,209.0 668.0,181.0" fill="var(--fill-2)" stroke="none" stroke-linejoin="round" id="identidade" data-role="box"/>
+<text x="796.0" y="185.3" font-size="16" fill="var(--ink)" text-anchor="middle" font-weight="700">Identidade</text>
+<polygon points="948.0,153.0 1224.0,153.0 1244.0,181.0 1224.0,209.0 948.0,209.0 968.0,181.0" fill="var(--accent)" stroke="none" stroke-linejoin="round" id="telas" data-role="box"/>
+<text x="1096.0" y="185.3" font-size="16" fill="var(--on-strong)" text-anchor="middle" font-weight="700">Telas</text>
+<polygon points="1248.0,153.0 1524.0,153.0 1544.0,181.0 1524.0,209.0 1248.0,209.0 1268.0,181.0" fill="var(--fill-2)" stroke="none" stroke-linejoin="round" id="revisao" data-role="box"/>
+<text x="1396.0" y="185.3" font-size="16" fill="var(--ink)" text-anchor="middle" font-weight="700">Revisão</text>
+<rect x="52.0" y="225.0" width="284.0" height="133.9" rx="8" fill="var(--fill-1)" stroke="var(--divider)" stroke-width="1.5" id="negocio-detalhe" data-role="box"/>
+<text x="70.0" y="253.6" font-size="14" fill="var(--muted)" text-anchor="start" font-weight="700" letter-spacing="0.08em">01</text>
+<text x="74.0" y="276.8" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="86.0" y="276.8" font-size="16" fill="var(--ink)" text-anchor="start">Entrevista do prontuário</text>
+<text x="74.0" y="296.5" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="86.0" y="296.5" font-size="16" fill="var(--ink)" text-anchor="start">Regras e números</text>
+<text x="74.0" y="316.2" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="86.0" y="316.2" font-size="16" fill="var(--ink)" text-anchor="start">Níveis e glossário</text>
+<rect x="352.0" y="225.0" width="284.0" height="133.9" rx="8" fill="var(--fill-1)" stroke="var(--divider)" stroke-width="1.5" id="servidor-detalhe" data-role="box"/>
+<text x="370.0" y="253.6" font-size="14" fill="var(--muted)" text-anchor="start" font-weight="700" letter-spacing="0.08em">02</text>
+<text x="374.0" y="276.8" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="386.0" y="276.8" font-size="16" fill="var(--ink)" text-anchor="start">Módulos e tabelas</text>
+<text x="374.0" y="296.5" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="386.0" y="296.5" font-size="16" fill="var(--ink)" text-anchor="start">Recursos do painel</text>
+<text x="374.0" y="316.2" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="386.0" y="316.2" font-size="16" fill="var(--ink)" text-anchor="start">Relatório para o front</text>
+<rect x="652.0" y="225.0" width="284.0" height="133.9" rx="8" fill="var(--fill-1)" stroke="var(--divider)" stroke-width="1.5" id="identidade-detalhe" data-role="box"/>
+<text x="670.0" y="253.6" font-size="14" fill="var(--muted)" text-anchor="start" font-weight="700" letter-spacing="0.08em">03</text>
+<text x="674.0" y="276.8" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="686.0" y="276.8" font-size="16" fill="var(--ink)" text-anchor="start">Duas cores de realce</text>
+<text x="674.0" y="296.5" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="686.0" y="296.5" font-size="16" fill="var(--ink)" text-anchor="start">Menu e níveis</text>
+<text x="674.0" y="316.2" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="686.0" y="316.2" font-size="16" fill="var(--ink)" text-anchor="start">Casca montada</text>
+<rect x="952.0" y="225.0" width="284.0" height="133.9" rx="8" fill="var(--fill-1)" stroke="var(--divider)" stroke-width="1.5" id="telas-detalhe" data-role="box"/>
+<text x="970.0" y="253.6" font-size="14" fill="var(--muted)" text-anchor="start" font-weight="700" letter-spacing="0.08em">04</text>
+<text x="974.0" y="276.8" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="986.0" y="276.8" font-size="16" fill="var(--ink)" text-anchor="start">Cadastros por</text>
+<text x="986.0" y="298.0" font-size="16" fill="var(--ink)" text-anchor="start">configuração</text>
+<text x="974.0" y="317.6" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="986.0" y="317.6" font-size="16" fill="var(--ink)" text-anchor="start">Fluxos com guia</text>
+<text x="974.0" y="337.3" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="986.0" y="337.3" font-size="16" fill="var(--ink)" text-anchor="start">Modal com abas</text>
+<rect x="1252.0" y="225.0" width="284.0" height="133.9" rx="8" fill="var(--fill-1)" stroke="var(--divider)" stroke-width="1.5" id="revisao-detalhe" data-role="box"/>
+<text x="1270.0" y="253.6" font-size="14" fill="var(--muted)" text-anchor="start" font-weight="700" letter-spacing="0.08em">05</text>
+<text x="1274.0" y="276.8" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="1286.0" y="276.8" font-size="16" fill="var(--ink)" text-anchor="start">Capturas em dois</text>
+<text x="1286.0" y="298.0" font-size="16" fill="var(--ink)" text-anchor="start">tamanhos</text>
+<text x="1274.0" y="317.6" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="1286.0" y="317.6" font-size="16" fill="var(--ink)" text-anchor="start">Varreduras automáticas</text>
+<text x="1274.0" y="337.3" font-size="16" fill="var(--faint)" text-anchor="start">•</text>
+<text x="1286.0" y="337.3" font-size="16" fill="var(--ink)" text-anchor="start">Relato da entrega</text>
+</g>
+</svg>

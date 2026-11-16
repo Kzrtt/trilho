@@ -1,0 +1,33 @@
+{
+ "gramatica": "ciclo",
+ "variante": "ciclo-n",
+ "titulo": "O batimento de uma entrega",
+ "subtitulo": "O mesmo ritual em toda mudança",
+ "destaque": "relatar",
+ "conteudo": {
+  "centro": "Contexto sempre atual",
+  "etapas": [
+   {
+    "rotulo": "Carregar contexto",
+    "texto": "Domínio e relatórios pendentes"
+   },
+   {
+    "rotulo": "Implementar",
+    "texto": "Por blocos, com teste junto"
+   },
+   {
+    "rotulo": "Conferir",
+    "texto": "Testes, estilo e fronteiras verdes"
+   },
+   {
+    "id": "relatar",
+    "rotulo": "Relatar",
+    "texto": "Relatório com a seção para o front"
+   },
+   {
+    "rotulo": "Sincronizar",
+    "texto": "Documentação viva atualizada"
+   }
+  ]
+ }
+}

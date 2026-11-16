@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1470 323" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" data-palavras="43">
+<title>O fluxo que organiza toda tela</title>
+<style>
+:root{--paper:#F4EFE5;--ink:#1E1E1C;--muted:#625B50;--faint:#8A8070;--line:#A39682;--divider:#DED3BD;--node:#FBF9F4;--fill-1:#ECE5D6;--fill-2:#DED3BD;--fill-3:#C9BAA0;--accent:#1F5E63;--accent-bg:#DCEBEB;--accent-ink:#184D51;--seq-1:#E3EEEE;--seq-2:#BFD8D9;--seq-3:#8FB8BA;--seq-4:#4F8E92;--seq-5:#1F5E63;--on-strong:#FFFFFF;--on-ink:#FFFFFF}
+#dark:target ~ #art{--paper:transparent;--ink:#ECECF1;--muted:#A7A9B4;--faint:#767884;--line:#5D5F69;--divider:#2C2C33;--node:#1D1E24;--fill-1:#202128;--fill-2:#272830;--fill-3:#32333C;--accent:#3F6FA6;--accent-bg:#1A2838;--accent-ink:#A9C6E8;--seq-1:#1A2533;--seq-2:#203247;--seq-3:#2A4363;--seq-4:#355883;--seq-5:#4470A6;--on-strong:#F4F6FA;--on-ink:#15161A}
+#light:target ~ #art{--paper:transparent}
+text{font-family:Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif}
+</style>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+<marker id="arr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--ink)"/></marker>
+<marker id="arr-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--accent)"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--muted)"/></marker>
+</defs>
+<view id="dark" viewBox="0 0 1470 323"/>
+<view id="light" viewBox="0 0 1470 323"/>
+<g id="art">
+<rect width="1470" height="323" fill="var(--paper)"/>
+<text x="735.0" y="73.8" font-size="34" fill="var(--ink)" text-anchor="middle" font-weight="700" id="titulo">O fluxo que organiza toda tela</text>
+<text x="735.0" y="109.0" font-size="18" fill="var(--muted)" text-anchor="middle" id="subtitulo">A pessoa nunca perde o lugar na lista</text>
+<rect x="48.0" y="153.0" width="230.0" height="121.9" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="menu" data-role="box"/>
+<text x="163.0" y="191.5" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em">01</text>
+<text x="163.0" y="216.3" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700">Menu</text>
+<text x="163.0" y="243.6" font-size="15" fill="var(--muted)" text-anchor="middle">Abre uma área</text>
+<line x1="286.0" y1="213.9" x2="326.0" y2="213.9" stroke="var(--line)" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="334.0" y="153.0" width="230.0" height="121.9" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="lista" data-role="box"/>
+<text x="449.0" y="191.5" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em">02</text>
+<text x="449.0" y="216.3" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700">Lista</text>
+<text x="449.0" y="243.6" font-size="15" fill="var(--muted)" text-anchor="middle">Busca, filtra, ordena</text>
+<line x1="572.0" y1="213.9" x2="612.0" y2="213.9" stroke="var(--line)" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="620.0" y="153.0" width="230.0" height="121.9" rx="8" fill="var(--accent-bg)" stroke="var(--accent)" stroke-width="2.5" id="modal" data-role="box"/>
+<text x="735.0" y="181.6" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em">03</text>
+<text x="735.0" y="206.4" font-size="18" fill="var(--accent-ink)" text-anchor="middle" font-weight="700">Modal de detalhe</text>
+<text x="735.0" y="233.7" font-size="15" fill="var(--muted)" text-anchor="middle">Todos os dados, ações</text>
+<text x="735.0" y="253.5" font-size="15" fill="var(--muted)" text-anchor="middle">e abas de relação</text>
+<line x1="858.0" y1="213.9" x2="898.0" y2="213.9" stroke="var(--line)" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="906.0" y="153.0" width="230.0" height="121.9" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="formulario" data-role="box"/>
+<text x="1021.0" y="181.6" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em">04</text>
+<text x="1021.0" y="206.4" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700">Formulário</text>
+<text x="1021.0" y="233.7" font-size="15" fill="var(--muted)" text-anchor="middle">Todos os campos</text>
+<text x="1021.0" y="253.5" font-size="15" fill="var(--muted)" text-anchor="middle">editáveis</text>
+<line x1="1144.0" y1="213.9" x2="1184.0" y2="213.9" stroke="var(--line)" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="1192.0" y="153.0" width="230.0" height="121.9" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="de-volta" data-role="box"/>
+<text x="1307.0" y="181.6" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.08em">05</text>
+<text x="1307.0" y="206.4" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700">De volta</text>
+<text x="1307.0" y="233.7" font-size="15" fill="var(--muted)" text-anchor="middle">Mesma página,</text>
+<text x="1307.0" y="253.5" font-size="15" fill="var(--muted)" text-anchor="middle">linha marcada</text>
+</g>
+</svg>

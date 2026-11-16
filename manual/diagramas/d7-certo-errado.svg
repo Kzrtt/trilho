@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1048 502" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" data-palavras="60">
+<title>Faltou um dado no modal</title>
+<style>
+:root{--paper:#F4EFE5;--ink:#1E1E1C;--muted:#625B50;--faint:#8A8070;--line:#A39682;--divider:#DED3BD;--node:#FBF9F4;--fill-1:#ECE5D6;--fill-2:#DED3BD;--fill-3:#C9BAA0;--accent:#1F5E63;--accent-bg:#DCEBEB;--accent-ink:#184D51;--seq-1:#E3EEEE;--seq-2:#BFD8D9;--seq-3:#8FB8BA;--seq-4:#4F8E92;--seq-5:#1F5E63;--on-strong:#FFFFFF;--on-ink:#FFFFFF}
+#dark:target ~ #art{--paper:transparent;--ink:#ECECF1;--muted:#A7A9B4;--faint:#767884;--line:#5D5F69;--divider:#2C2C33;--node:#1D1E24;--fill-1:#202128;--fill-2:#272830;--fill-3:#32333C;--accent:#3F6FA6;--accent-bg:#1A2838;--accent-ink:#A9C6E8;--seq-1:#1A2533;--seq-2:#203247;--seq-3:#2A4363;--seq-4:#355883;--seq-5:#4470A6;--on-strong:#F4F6FA;--on-ink:#15161A}
+#light:target ~ #art{--paper:transparent}
+text{font-family:Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif}
+</style>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+<marker id="arr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--ink)"/></marker>
+<marker id="arr-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--accent)"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--muted)"/></marker>
+</defs>
+<view id="dark" viewBox="0 0 1048 502"/>
+<view id="light" viewBox="0 0 1048 502"/>
+<g id="art">
+<rect width="1048" height="502" fill="var(--paper)"/>
+<text x="524.0" y="73.8" font-size="34" fill="var(--ink)" text-anchor="middle" font-weight="700" id="titulo">Faltou um dado no modal</text>
+<text x="524.0" y="109.0" font-size="18" fill="var(--muted)" text-anchor="middle" id="subtitulo">A regra que mais precisou ser repetida</text>
+<text x="278.0" y="163.6" font-size="14" fill="var(--muted)" text-anchor="middle" font-weight="700" letter-spacing="0.12em" id="marca-errado">ERRADO</text>
+<text x="770.0" y="163.6" font-size="14" fill="var(--accent-ink)" text-anchor="middle" font-weight="700" letter-spacing="0.12em" id="marca-certo">CERTO</text>
+<rect x="88.0" y="180.7" width="380.0" height="273.3" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="errado" data-role="box"/>
+<circle cx="278.0" cy="228.7" r="22.0" fill="var(--fill-2)" stroke="none" id="errado-icone" data-role="badge"/>
+<path d="M270.0 220.7L286.0 236.7M286.0 220.7L270.0 236.7" fill="none" stroke="var(--muted)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="278.0" y="283.4" font-size="22" fill="var(--ink)" text-anchor="middle" font-weight="700" id="errado-rotulo">Bloco genérico</text>
+<text x="278.0" y="309.6" font-size="15" fill="var(--muted)" text-anchor="middle">Uma seção nova para o que sobrou</text>
+<line x1="114.0" y1="334.9" x2="442.0" y2="334.9" stroke="var(--divider)" stroke-width="1.5"/>
+<path d="M116.0 358.7L126.0 368.7M126.0 358.7L116.0 368.7" fill="none" stroke="var(--muted)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="140.0" y="369.1" font-size="16" fill="var(--ink)" text-anchor="start" id="errado-item-1">Seção chamada Outros dados</text>
+<path d="M116.0 386.3L126.0 396.3M126.0 386.3L116.0 396.3" fill="none" stroke="var(--muted)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="140.0" y="396.8" font-size="16" fill="var(--ink)" text-anchor="start" id="errado-item-2">Dados repetidos em dois lugares</text>
+<path d="M116.0 414.0L126.0 424.0M126.0 414.0L116.0 424.0" fill="none" stroke="var(--muted)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="140.0" y="424.5" font-size="16" fill="var(--ink)" text-anchor="start" id="errado-item-3">Identificador no lugar do nome</text>
+<rect x="580.0" y="180.7" width="380.0" height="273.3" rx="8" fill="var(--accent-bg)" stroke="var(--accent)" stroke-width="2.5" id="certo" data-role="box"/>
+<circle cx="770.0" cy="228.7" r="22.0" fill="var(--accent)" stroke="none" id="certo-icone" data-role="badge"/>
+<path d="M760.0 229.1L767.2 236.7L781.0 220.3" fill="none" stroke="var(--on-strong)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="770.0" y="283.4" font-size="22" fill="var(--accent-ink)" text-anchor="middle" font-weight="700" id="certo-rotulo">Seção que já existe</text>
+<text x="770.0" y="309.6" font-size="15" fill="var(--muted)" text-anchor="middle">O campo entra onde o assunto mora</text>
+<line x1="606.0" y1="334.9" x2="934.0" y2="334.9" stroke="var(--accent)" stroke-width="1.5"/>
+<path d="M606.5 363.9L611.2 368.9L620.1 358.2" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="632.0" y="369.1" font-size="16" fill="var(--ink)" text-anchor="start" id="certo-item-1">Um campo a mais no tema certo</text>
+<path d="M606.5 391.6L611.2 396.5L620.1 385.9" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="632.0" y="396.8" font-size="16" fill="var(--ink)" text-anchor="start" id="certo-item-2">Cada dado aparece uma vez</text>
+<path d="M606.5 419.3L611.2 424.2L620.1 413.6" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="632.0" y="424.5" font-size="16" fill="var(--ink)" text-anchor="start" id="certo-item-3">O nome do registro vinculado</text>
+<line x1="524.0" y1="204.7" x2="524.0" y2="430.0" stroke="var(--divider)" stroke-width="2" stroke-dasharray="2 8" id="divisoria"/>
+</g>
+</svg>

@@ -1,0 +1,28 @@
+{
+ "gramatica": "camadas",
+ "variante": "empilhado",
+ "titulo": "O que o servidor entrega para a tela",
+ "subtitulo": "Cada camada sustenta a de cima",
+ "destaque": "contrato",
+ "conteudo": {
+  "camadas": [
+   {
+    "id": "contrato",
+    "rotulo": "Contrato do painel",
+    "texto": "Lista no servidor, detalhe completo, rótulo no lugar de ID"
+   },
+   {
+    "rotulo": "Contas e auditoria",
+    "texto": "Níveis, permissões, conta e pessoa, trilha com responsável"
+   },
+   {
+    "rotulo": "Dados",
+    "texto": "Mapa único de vínculos, exclusão lógica em cascata"
+   },
+   {
+    "rotulo": "Módulos",
+    "texto": "Fronteira executável, Actions, eventos e contratos"
+   }
+  ]
+ }
+}

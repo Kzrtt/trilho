@@ -1,0 +1,52 @@
+{
+ "gramatica": "fluxo",
+ "variante": "fases-com-detalhe",
+ "titulo": "Do pedido ao sistema pronto",
+ "subtitulo": "Você descreve o negócio; o kit decide como o sistema sai",
+ "destaque": "telas",
+ "conteudo": {
+  "etapas": [
+   {
+    "rotulo": "Negócio",
+    "bullets": [
+     "Entrevista do prontuário",
+     "Regras e números",
+     "Níveis e glossário"
+    ]
+   },
+   {
+    "rotulo": "Servidor",
+    "bullets": [
+     "Módulos e tabelas",
+     "Recursos do painel",
+     "Relatório para o front"
+    ]
+   },
+   {
+    "rotulo": "Identidade",
+    "bullets": [
+     "Duas cores de realce",
+     "Menu e níveis",
+     "Casca montada"
+    ]
+   },
+   {
+    "id": "telas",
+    "rotulo": "Telas",
+    "bullets": [
+     "Cadastros por configuração",
+     "Fluxos com guia",
+     "Modal com abas"
+    ]
+   },
+   {
+    "rotulo": "Revisão",
+    "bullets": [
+     "Capturas em dois tamanhos",
+     "Varreduras automáticas",
+     "Relato da entrega"
+    ]
+   }
+  ]
+ }
+}

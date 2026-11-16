@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1055 491" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" data-palavras="46">
+<title>O que o servidor entrega para a tela</title>
+<style>
+:root{--paper:#F4EFE5;--ink:#1E1E1C;--muted:#625B50;--faint:#8A8070;--line:#A39682;--divider:#DED3BD;--node:#FBF9F4;--fill-1:#ECE5D6;--fill-2:#DED3BD;--fill-3:#C9BAA0;--accent:#1F5E63;--accent-bg:#DCEBEB;--accent-ink:#184D51;--seq-1:#E3EEEE;--seq-2:#BFD8D9;--seq-3:#8FB8BA;--seq-4:#4F8E92;--seq-5:#1F5E63;--on-strong:#FFFFFF;--on-ink:#FFFFFF}
+#dark:target ~ #art{--paper:transparent;--ink:#ECECF1;--muted:#A7A9B4;--faint:#767884;--line:#5D5F69;--divider:#2C2C33;--node:#1D1E24;--fill-1:#202128;--fill-2:#272830;--fill-3:#32333C;--accent:#3F6FA6;--accent-bg:#1A2838;--accent-ink:#A9C6E8;--seq-1:#1A2533;--seq-2:#203247;--seq-3:#2A4363;--seq-4:#355883;--seq-5:#4470A6;--on-strong:#F4F6FA;--on-ink:#15161A}
+#light:target ~ #art{--paper:transparent}
+text{font-family:Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif}
+</style>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+<marker id="arr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--ink)"/></marker>
+<marker id="arr-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--accent)"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--muted)"/></marker>
+</defs>
+<view id="dark" viewBox="0 0 1055 491"/>
+<view id="light" viewBox="0 0 1055 491"/>
+<g id="art">
+<rect width="1055" height="491" fill="var(--paper)"/>
+<text x="527.5" y="73.8" font-size="34" fill="var(--ink)" text-anchor="middle" font-weight="700" id="titulo">O que o servidor entrega para a tela</text>
+<text x="527.5" y="109.0" font-size="18" fill="var(--muted)" text-anchor="middle" id="subtitulo">Cada camada sustenta a de cima</text>
+<polygon points="88.0,153.0 648.0,153.0 648.0,221.0 88.0,221.0" fill="var(--accent)" stroke="none" stroke-linejoin="round" id="contrato" data-role="box"/>
+<text x="368.0" y="191.8" font-size="18" fill="var(--on-strong)" text-anchor="middle" font-weight="700" id="contrato-rotulo">Contrato do painel</text>
+<text x="696.0" y="181.1" font-size="15" fill="var(--muted)" text-anchor="start" id="contrato-texto">Lista no servidor, detalhe</text>
+<text x="696.0" y="200.9" font-size="15" fill="var(--muted)" text-anchor="start">completo, rótulo no lugar de ID</text>
+<polygon points="88.0,227.0 648.0,227.0 648.0,295.0 88.0,295.0" fill="var(--seq-2)" stroke="none" stroke-linejoin="round" id="contas-e-auditoria" data-role="box"/>
+<text x="368.0" y="265.8" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700" id="contas-e-auditoria-rotulo">Contas e auditoria</text>
+<text x="696.0" y="255.1" font-size="15" fill="var(--muted)" text-anchor="start" id="contas-e-auditoria-texto">Níveis, permissões, conta e</text>
+<text x="696.0" y="274.9" font-size="15" fill="var(--muted)" text-anchor="start">pessoa, trilha com responsável</text>
+<polygon points="88.0,301.0 648.0,301.0 648.0,369.0 88.0,369.0" fill="var(--seq-3)" stroke="none" stroke-linejoin="round" id="dados" data-role="box"/>
+<text x="368.0" y="339.8" font-size="18" fill="var(--ink)" text-anchor="middle" font-weight="700" id="dados-rotulo">Dados</text>
+<text x="696.0" y="329.1" font-size="15" fill="var(--muted)" text-anchor="start" id="dados-texto">Mapa único de vínculos,</text>
+<text x="696.0" y="348.9" font-size="15" fill="var(--muted)" text-anchor="start">exclusão lógica em cascata</text>
+<polygon points="88.0,375.0 648.0,375.0 648.0,443.0 88.0,443.0" fill="var(--seq-4)" stroke="none" stroke-linejoin="round" id="modulos" data-role="box"/>
+<text x="368.0" y="413.8" font-size="18" fill="var(--on-strong)" text-anchor="middle" font-weight="700" id="modulos-rotulo">Módulos</text>
+<text x="696.0" y="403.1" font-size="15" fill="var(--muted)" text-anchor="start" id="modulos-texto">Fronteira executável,</text>
+<text x="696.0" y="422.9" font-size="15" fill="var(--muted)" text-anchor="start">Actions, eventos e contratos</text>
+</g>
+</svg>

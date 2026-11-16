@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1096 470" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" data-palavras="76">
+<title>Quem decide o quê</title>
+<style>
+:root{--paper:#F4EFE5;--ink:#1E1E1C;--muted:#625B50;--faint:#8A8070;--line:#A39682;--divider:#DED3BD;--node:#FBF9F4;--fill-1:#ECE5D6;--fill-2:#DED3BD;--fill-3:#C9BAA0;--accent:#1F5E63;--accent-bg:#DCEBEB;--accent-ink:#184D51;--seq-1:#E3EEEE;--seq-2:#BFD8D9;--seq-3:#8FB8BA;--seq-4:#4F8E92;--seq-5:#1F5E63;--on-strong:#FFFFFF;--on-ink:#FFFFFF}
+#dark:target ~ #art{--paper:transparent;--ink:#ECECF1;--muted:#A7A9B4;--faint:#767884;--line:#5D5F69;--divider:#2C2C33;--node:#1D1E24;--fill-1:#202128;--fill-2:#272830;--fill-3:#32333C;--accent:#3F6FA6;--accent-bg:#1A2838;--accent-ink:#A9C6E8;--seq-1:#1A2533;--seq-2:#203247;--seq-3:#2A4363;--seq-4:#355883;--seq-5:#4470A6;--on-strong:#F4F6FA;--on-ink:#15161A}
+#light:target ~ #art{--paper:transparent}
+text{font-family:Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif}
+</style>
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--line)"/></marker>
+<marker id="arr-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--ink)"/></marker>
+<marker id="arr-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--accent)"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--muted)"/></marker>
+</defs>
+<view id="dark" viewBox="0 0 1096 470"/>
+<view id="light" viewBox="0 0 1096 470"/>
+<g id="art">
+<rect width="1096" height="470" fill="var(--paper)"/>
+<text x="548.0" y="73.8" font-size="34" fill="var(--ink)" text-anchor="middle" font-weight="700" id="titulo">Quem decide o quê</text>
+<text x="548.0" y="109.0" font-size="18" fill="var(--muted)" text-anchor="middle" id="subtitulo">A divisão de trabalho entre você e o kit</text>
+<rect x="87.5" y="153.0" width="404.5" height="268.7" rx="8" fill="var(--node)" stroke="var(--divider)" stroke-width="1.5" id="a" data-role="box"/>
+<text x="289.8" y="195.7" font-size="22" fill="var(--ink)" text-anchor="middle" font-weight="700" id="a-rotulo">Você</text>
+<text x="289.8" y="221.9" font-size="15" fill="var(--muted)" text-anchor="middle">O que só o dono do produto sabe</text>
+<line x1="113.5" y1="247.2" x2="466.0" y2="247.2" stroke="var(--divider)" stroke-width="1.5"/>
+<circle cx="120.5" cy="275.9" r="3.5" fill="var(--faint)" stroke="none"/>
+<text x="139.5" y="281.4" font-size="16" fill="var(--ink)" text-anchor="start" id="a-item-1">O que o sistema faz e para quem</text>
+<circle cx="120.5" cy="303.6" r="3.5" fill="var(--faint)" stroke="none"/>
+<text x="139.5" y="309.1" font-size="16" fill="var(--ink)" text-anchor="start" id="a-item-2">As coisas do negócio e seus estados</text>
+<circle cx="120.5" cy="331.3" r="3.5" fill="var(--faint)" stroke="none"/>
+<text x="139.5" y="336.7" font-size="16" fill="var(--ink)" text-anchor="start" id="a-item-3">Quem pode o quê</text>
+<circle cx="120.5" cy="359.0" r="3.5" fill="var(--faint)" stroke="none"/>
+<text x="139.5" y="364.4" font-size="16" fill="var(--ink)" text-anchor="start" id="a-item-4">Prazos, limites e números</text>
+<circle cx="120.5" cy="386.7" r="3.5" fill="var(--faint)" stroke="none"/>
+<text x="139.5" y="392.1" font-size="16" fill="var(--ink)" text-anchor="start" id="a-item-5">As palavras de cada coisa</text>
+<rect x="604.0" y="153.0" width="404.5" height="268.7" rx="8" fill="var(--accent-bg)" stroke="var(--accent)" stroke-width="2.5" id="b" data-role="box"/>
+<text x="806.2" y="195.7" font-size="22" fill="var(--accent-ink)" text-anchor="middle" font-weight="700" id="b-rotulo">O kit</text>
+<text x="806.2" y="221.9" font-size="15" fill="var(--muted)" text-anchor="middle">O que é igual em todo sistema</text>
+<line x1="630.0" y1="247.2" x2="982.5" y2="247.2" stroke="var(--accent)" stroke-width="1.5"/>
+<circle cx="637.0" cy="275.9" r="3.5" fill="var(--accent)" stroke="none"/>
+<text x="656.0" y="281.4" font-size="16" fill="var(--ink)" text-anchor="start" id="b-item-1">Casca, menu e perfil</text>
+<circle cx="637.0" cy="303.6" r="3.5" fill="var(--accent)" stroke="none"/>
+<text x="656.0" y="309.1" font-size="16" fill="var(--ink)" text-anchor="start" id="b-item-2">Lista, modal e formulário</text>
+<circle cx="637.0" cy="331.3" r="3.5" fill="var(--accent)" stroke="none"/>
+<text x="656.0" y="336.7" font-size="16" fill="var(--ink)" text-anchor="start" id="b-item-3">Cores, selos e ícones</text>
+<circle cx="637.0" cy="359.0" r="3.5" fill="var(--accent)" stroke="none"/>
+<text x="656.0" y="364.4" font-size="16" fill="var(--ink)" text-anchor="start" id="b-item-4">Auditoria e exclusão lógica</text>
+<circle cx="637.0" cy="386.7" r="3.5" fill="var(--accent)" stroke="none"/>
+<text x="656.0" y="392.1" font-size="16" fill="var(--ink)" text-anchor="start" id="b-item-5">Contrato entre tela e servidor</text>
+<circle cx="548.0" cy="287.3" r="32.0" fill="var(--ink)" stroke="none" id="vs" data-role="badge"/>
+<text x="548.0" y="294.3" font-size="22" fill="var(--on-ink)" text-anchor="middle" font-weight="700">vs</text>
+</g>
+</svg>

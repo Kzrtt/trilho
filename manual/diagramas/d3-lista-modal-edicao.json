@@ -1,0 +1,32 @@
+{
+ "gramatica": "fluxo",
+ "variante": "horizontal",
+ "titulo": "O fluxo que organiza toda tela",
+ "subtitulo": "A pessoa nunca perde o lugar na lista",
+ "destaque": "modal",
+ "conteudo": {
+  "etapas": [
+   {
+    "rotulo": "Menu",
+    "texto": "Abre uma área"
+   },
+   {
+    "rotulo": "Lista",
+    "texto": "Busca, filtra, ordena"
+   },
+   {
+    "id": "modal",
+    "rotulo": "Modal de detalhe",
+    "texto": "Todos os dados, ações e abas de relação"
+   },
+   {
+    "rotulo": "Formulário",
+    "texto": "Todos os campos editáveis"
+   },
+   {
+    "rotulo": "De volta",
+    "texto": "Mesma página, linha marcada"
+   }
+  ]
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "gramatica": "comparativo",
+ "variante": "certo-errado",
+ "titulo": "Faltou um dado no modal",
+ "subtitulo": "A regra que mais precisou ser repetida",
+ "destaque": "certo",
+ "conteudo": {
+  "a": {
+   "id": "errado",
+   "rotulo": "Bloco genérico",
+   "texto": "Uma seção nova para o que sobrou",
+   "itens": [
+    "Seção chamada Outros dados",
+    "Dados repetidos em dois lugares",
+    "Identificador no lugar do nome"
+   ]
+  },
+  "b": {
+   "id": "certo",
+   "rotulo": "Seção que já existe",
+   "texto": "O campo entra onde o assunto mora",
+   "itens": [
+    "Um campo a mais no tema certo",
+    "Cada dado aparece uma vez",
+    "O nome do registro vinculado"
+   ]
+  }
+ }
+}
